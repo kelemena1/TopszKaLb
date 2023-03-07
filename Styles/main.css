@@ -1,0 +1,40 @@
+#konyv_tabla{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: auto;
+    
+}
+#kartyatartó{
+    flex: content;
+    flex-direction: row;
+}
+body{
+    background-color: #FFF8EA;
+
+}
+header{
+    background-color: #698269;
+    padding: 15px;
+    box-shadow: #698269 0px 0px 5px 10px;
+    margin-bottom: 25px;
+}
+#oldalszam_menu{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#oldalszam_menu a:active {
+    background-color: #698269;
+}
+#konyv_menu{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.page-item a{
+    background-color: #9e855c;
+    color: #FFF8EA;
+}
