@@ -37,14 +37,14 @@
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #F1DBBF;
-    color: black;
+    background-color: #301E67;
+    color: #B6EADA;
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: #9E7676;
-    color: white;
+    background-color: #865DFF;
+    color: #FFA3FD;
     transform: rotateY(180deg);
   }
   #datum{
@@ -56,6 +56,6 @@
 
 .card-img{
   border-radius: 15px;
-  border: #9e855c solid 5px;
+  border: #865DFF solid 5px;
 }
 

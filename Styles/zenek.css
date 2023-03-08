@@ -12,17 +12,52 @@
 }
 
 body {
-    background-color: #FFF8EA;
+    background-color: #191825;
 
     overflow-x: hidden;
-    
+    animation: infinite hattar 0.00001s linear alternate;
     /*szaros #mitterday*/
+}
+@keyframes hattar{
+    0%{
+        background-color: #301E67;
+    }
+    20%{
+        background-color: #FF0032;
+    }
+    40%{
+        background-color: #865DFF;
+    }
+    60%{
+        background-color: #F2F7A1;
+    }
+    100%{
+        background-color: #301E67;   
+    }
+}
+
+@keyframes betu{
+    0%{
+        color: #301E67;
+    }
+    20%{
+        color: #FF0032;
+    }
+    40%{
+        color: #865DFF;
+    }
+    60%{
+        color: #F2F7A1;
+    }
+    100%{
+        color: #301E67;   
+    }
 }
 
 header {
-    background-color: #D0B8A8;
+    background-color: #865DFF;
     padding: 15px;
-    box-shadow: #D0B8A8 0px 0px 2px 2px;
+    box-shadow: #865DFF 0px 0px 2px 2px;
     margin: 0px;
     margin-bottom: 25px;
 }
@@ -34,7 +69,7 @@ header {
 }
 
 #oldalszam_menu a:active {
-    background-color: #698269;
+    background-color: #301E67;
 }
 
 #oldalszam_menu_belso {
@@ -50,15 +85,15 @@ header {
 
 #konyv_menu {
     display: block;
-    border-bottom: 5px solid #594545;
+    border-bottom: 5px solid #301E67;
     padding: 10px;
     padding-bottom: 0px;
     border-radius: 15px;
 }
 
 .page-item a {
-    background-color: #594545;
-    color: #FFF8EA;
+    background-color: #301E67;
+    color: #FFA3FD;
     border-radius: 5px;
     margin: 3px;
 }
@@ -72,9 +107,9 @@ header {
 footer {
     bottom: 0;
     width: 100%;
-    background: #D0B8A8;
+    background: #865DFF;
     text-align: center;
-    box-shadow: #D0B8A8 0px 0px 2px 2px;
+    box-shadow: #865DFF 0px 0px 2px 2px;
     padding: 15px;
     margin-top: 10%;
     
@@ -85,8 +120,8 @@ footer {
 #cim {
     float: left;
     width: 20%;
-    background-color: #594545;
-    color: #FFF8EA;
+    background-color: #301E67;
+    color: #B6EADA;
     padding: 15px;
     border-radius: 15px;
     height: 80px;
@@ -95,7 +130,7 @@ footer {
 /*Header nav css*/
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #594545;
+    background-color: #301E67;
     overflow: hidden;
     border-radius: 15px;
     width: 70%;
@@ -105,30 +140,32 @@ footer {
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #FFA3FD;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: bolder;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #FFA3FD;
     color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #FFF8EA;
-    color: #594545;
+    background-color: #FFA3FD;
+    color: #301E67;
     font-weight: bolder;
 }
 
 /*Header nav css end*/
 /*Easter egg button*/
-#dravenid{
-    color: #D0B8A8;
-    background-color: #D0B8A8;
-    border: none;
+#dravenidzene{
+    color: #E384FF;
+    animation: infinite betu 0.00001s linear alternate;
 }
+
+
